@@ -13,6 +13,7 @@ main{
     max-width: 360px;
     max-height: 100vh;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .logo{
     width: 150px;
@@ -22,22 +23,29 @@ main{
     flex-direction: column;
     row-gap: 20px;
 }
-.link{
-    color: black;
-    font-size: 18px;
+.content-block{
+    width: 100%;
+    background: black;
+    color: #fff;
+    padding: 15px 30px;
     display: flex;
     align-items: center;
     column-gap: 30px;
-    margin-left: 40px;
-}
-.link-last{
-    margin: 80px 0 0 20px;
-    column-gap: 0;
-    font-style: italic;
+    border-radius: 35px;
 }
 .image{
-    width: 40px;
+    width: 30px;
 }
-.image-last{
-    width: 80px;
+.image-icon{
+    width: 27px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+    margin-top: 70px;
 }
